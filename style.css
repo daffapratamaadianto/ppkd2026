@@ -1,6 +1,4 @@
-/* =========================
-   RESET
-========================= */
+
 
 * {
     margin: 0;
@@ -9,9 +7,7 @@
 }
 
 
-/* =========================
-   BODY
-========================= */
+
 
 body {
     font-family: Arial, sans-serif;
@@ -19,10 +15,7 @@ body {
 }
 
 
-/* =========================
-   HALAMAN CONTACT
-   Sticky footer
-========================= */
+
 
 .page {
     width: 800px;
@@ -33,9 +26,7 @@ body {
 }
 
 
-/* =========================
-   HEADER / NAVBAR
-========================= */
+
 
 header {
     background-color: #333;
@@ -62,9 +53,6 @@ nav a:hover {
 }
 
 
-/* =========================
-   HOME
-========================= */
 
 .home1 {
     min-height: 70vh;
@@ -93,9 +81,7 @@ nav a:hover {
 }
 
 
-/* =========================
-   ARTIKEL
-========================= */
+
 
 .artikel {
     max-width: 900px;
@@ -136,9 +122,6 @@ nav a:hover {
 }
 
 
-/* =========================
-   WRAPPER
-========================= */
 
 .wraper {
     display: grid;
@@ -150,9 +133,6 @@ nav a:hover {
 }
 
 
-/* =========================
-   ABILITY / TABLE
-========================= */
 
 .ability table {
     width: 100%;
@@ -187,9 +167,7 @@ nav a:hover {
 }
 
 
-/* =========================
-   CONTAINER
-========================= */
+
 
 .container {
     max-width: 800px;
@@ -198,9 +176,7 @@ nav a:hover {
 }
 
 
-/* =========================
-   CONTACT
-========================= */
+
 
 .normal-section {
     flex: 1;
@@ -214,7 +190,7 @@ nav a:hover {
 }
 
 
-/* Form */
+
 
 .contact-form {
     display: flex;
@@ -239,7 +215,7 @@ nav a:hover {
 }
 
 
-/* Button */
+
 
 button[type="submit"] {
     background-color: black;
@@ -248,7 +224,7 @@ button[type="submit"] {
     border: none;
     font-size: 20px;
     cursor: pointer;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 
 button[type="submit"]:hover {
@@ -256,18 +232,14 @@ button[type="submit"]:hover {
 }
 
 
-/* =========================
-   NAV BUTTON
-========================= */
+
 
 .nav-container > button {
     display: none;
 }
 
 
-/* =========================
-   TENTANG
-========================= */
+
 
 .tentang {
     max-width: 800px;
@@ -294,9 +266,7 @@ button[type="submit"]:hover {
 }
 
 
-/* =========================
-   VIDEO TENTANG
-========================= */
+
 
 .video-tentang {
     position: relative;
@@ -318,9 +288,7 @@ button[type="submit"]:hover {
 }
 
 
-/* =========================
-   FOOTER
-========================= */
+
 
 footer {
     background-color: #333;
@@ -330,9 +298,6 @@ footer {
 }
 
 
-/* =========================
-   RESPONSIVE
-========================= */
 
 @media (max-width: 850px) {
 
